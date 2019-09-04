@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c142331-9a49-4669-b9c3-98a3b08d6f35" name="Default Changelist" comment="" />
+    <list default="true" id="3c142331-9a49-4669-b9c3-98a3b08d6f35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/config.template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/defaultservice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/defaultservice/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/storage/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectmanager/tests/servicestests/test_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/servermanager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/servermanager/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/servermanager/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/servermanager/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/Task/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/taskmanager/Task/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/Task/taskmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/taskmanager/Task/taskmanager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/taskmanager/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/tests/test_apscheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/tests/test_apscheduler.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +48,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Pci8uHthS6qzGrYK9VniUXBME4" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlaskTest" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ProjectManager\projectmanager\servermanager\services" />
+      <recent name="D:\workspace\ProjectManager\projectmanager\servermanager" />
       <recent name="D:\workspace\ProjectManager\projectmanager" />
     </key>
   </component>
@@ -52,8 +77,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask">
-    <configuration default="true" type="DjangoTestsConfigurationType">
+  <component name="RunManager" selected="Python tests.Unittests for test_service.TestServicesModule.test_registerAllServiceModule">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,133 +86,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ProjectManager/projectmanager" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/services" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ProjectManager/projectmanager/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projectmanager/services/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="mian" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ProjectManager/projectmanager" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\workspace\ProjectManager\projectmanager\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -195,7 +105,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ProjectManager/projectmanager/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -205,18 +115,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_apscheduler.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_service.TestServicesModule.test_registerAllServiceModule" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ProjectManager/projectmanager/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests/servicestests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../ProjectManager/projectmanager/tests/test_apscheduler.py&quot;" />
+      <option name="_new_target" value="&quot;test_service.TestServicesModule.test_registerAllServiceModule&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_apscheduler.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ProjectManager" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/projectmanager/tests/test_apscheduler.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -225,57 +150,23 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ProjectManager/projectmanager/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../ProjectManager/projectmanager/tests/test_scheduler.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="ProjectManager" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/projectmanager/tests/test_scheduler.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_service.TestServicesModule.test_registerAllServiceModule" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python tests.Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask" />
         <item itemvalue="Python tests.Unittests in test_scheduler.py" />
         <item itemvalue="Python tests.Unittests in test_apscheduler.py" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.mian" />
       </list>
     </recent_temporary>
   </component>
@@ -289,18 +180,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566179629335</updated>
-      <workItem from="1566179635466" duration="77046000" />
+      <workItem from="1566179635466" duration="80892000" />
+      <workItem from="1567042764175" duration="28939000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_scheduler_py.coverage" NAME="Unittests in test_scheduler.py Coverage Results" MODIFIED="1566370273107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProjectManager/projectmanager/tests" />
-    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_test_scheduler_TestScheduler_test_SingleServiceMultiTask.coverage" NAME="Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask Coverage Results" MODIFIED="1566439642744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProjectManager/projectmanager/tests" />
-    <SUITE FILE_PATH="coverage/ProjectManager$main.coverage" NAME="main Coverage Results" MODIFIED="1566355647533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProjectManager/projectmanager" />
-    <SUITE FILE_PATH="coverage/ProjectManager$mian.coverage" NAME="mian Coverage Results" MODIFIED="1566293479982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProjectManager/projectmanager" />
-    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_apscheduler_py.coverage" NAME="Unittests in test_apscheduler.py Coverage Results" MODIFIED="1566358048658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ProjectManager/projectmanager/tests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_scheduler_py.coverage" NAME="Unittests in test_scheduler.py Coverage Results" MODIFIED="1566370273107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_test_scheduler_TestScheduler_test_SingleServiceMultiTask.coverage" NAME="Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask Coverage Results" MODIFIED="1566439642744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$main.coverage" NAME="main Coverage Results" MODIFIED="1566355647533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager" />
+    <SUITE FILE_PATH="coverage/ProjectManager$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1567560210800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/services" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_test_service_TestServicesModule_test_registerAllServiceModule.coverage" NAME="Unittests for test_service.TestServicesModule.test_registerAllServiceModule Coverage Results" MODIFIED="1567564188797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/servicestests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$mian.coverage" NAME="mian Coverage Results" MODIFIED="1566293479982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_apscheduler_py.coverage" NAME="Unittests in test_apscheduler.py Coverage Results" MODIFIED="1566358048658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
   </component>
 </project>

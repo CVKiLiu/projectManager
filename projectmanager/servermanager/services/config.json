@@ -1,0 +1,10 @@
+{
+  "services":[
+    {
+      "module": "defaultservice",
+      "service": "DefaultService",
+      "path": "projectmanager.servermanager.services.defaultservice",
+      "description": "Default Service"
+    }
+  ]
+}

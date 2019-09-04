@@ -3,8 +3,6 @@ import datetime
 from enum import Enum
 
 from apscheduler.util import undefined
-
-from projectmanager.servermanager.service import MyService, DefaultService
 import time
 
 
@@ -30,7 +28,7 @@ class Task(object):
     :var time last_runt: lasted running time
     """
 
-    def __init__(self, id=None, name=None, trigger=None, service=DefaultService, scheduler=None, runnable=True, tags=set(),
+    def __init__(self, id=None, name=None, trigger=None, service=None, scheduler=None, runnable=True, tags=set(),
                  start_time=None, jobstore='default', executor='default', replace_existing=False, **trigger_args):
         self.id = id
         self.name = name
@@ -57,10 +55,10 @@ class Task(object):
                                           max_instances=max_instances, next_run_time=next_run_time, jobstore=jobstore,
                                           executor=executor, replace_existing=replace_existing, **trigger_args)
 
-    def run(self, args, **kwargs):
+    def execute(self, args=None):
         if self.runnable:
             self.last_runt = time.time()
-            self.service.execute(args, **kwargs)
+            self.service.execute(args=args)
     """
     :param list/tuple args: list of positional arguments to call func with
     :param dict kwargs: dict of keyword arguments to call func with

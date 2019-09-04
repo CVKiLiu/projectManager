@@ -2,7 +2,7 @@
 import unittest
 
 from apscheduler.schedulers.blocking import BlockingScheduler
-from projectmanager.servermanager.service import MyService, ExecuteService
+from projectmanager.servermanager.service import ExecuteService
 from projectmanager.taskmanager.Task.task import Task
 
 

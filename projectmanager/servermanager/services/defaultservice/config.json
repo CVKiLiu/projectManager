@@ -1,0 +1,77 @@
+{
+  "name": "DefaultService",
+  "module": "defaultservice",
+  "description": "Default Service",
+  "methods": {
+
+    "__init__": {
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    },
+
+    "execute":{
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    },
+
+    "query": {
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    },
+
+    "progress": {
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    },
+
+    "status": {
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    },
+
+    "stop": {
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    },
+
+    "exit": {
+      "action": "",
+      "args": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ],
+      "result": [
+        { "name": "",  "type": "",  "default": "", "usage": ""}
+      ]
+    }
+  }
+}
