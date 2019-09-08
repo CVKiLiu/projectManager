@@ -15,6 +15,9 @@ class Storage(object):
     def read(self, args=None):
         pass
 
+    def close(self):
+        pass
+
 
 class DefaultStorage(Storage):
 
@@ -22,9 +25,17 @@ class DefaultStorage(Storage):
         self.__file = file
 
     def write(self, args=None):
+        with open(self.__file, 'w', encoding='utf-8') as f:
+            f.write(args)
+
+    def append(self, args=None):
         with open(self.__file, 'a', encoding='utf-8') as f:
             f.write(args)
 
     def read(self, args=None):
         with open(self.__file, 'r', encoding='utf-8') as f:
             return f.read()
+
+    def close(self):
+        pass
+

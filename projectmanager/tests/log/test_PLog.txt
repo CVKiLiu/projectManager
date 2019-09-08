@@ -1,0 +1,16 @@
+[2019-09-05 17:10:03---ERROR] test_error[2019-09-05 17:10:29---DEBUG] test_bug[2019-09-05 17:10:29---INFO] test_info[2019-09-05 17:10:29---WARNING] test_warning[2019-09-05 17:10:29---ERROR] test_error[2019-09-05 17:10:46---DEBUG] test_bug
+[2019-09-05 17:10:46---INFO] test_info
+[2019-09-05 17:10:46---WARNING] test_warning
+[2019-09-05 17:10:46---ERROR] test_error
+[2019-09-05 17:11:00---DEBUG] test_bug
+[2019-09-05 17:11:00---INFO] test_info
+[2019-09-05 17:11:00---WARNING] test_warning
+[2019-09-05 17:11:00---ERROR] test_error
+[2019-09-05 17:11:13---DEBUG] test_bug
+[2019-09-05 17:11:13---INFO] test_info
+[2019-09-05 17:11:13---WARNING] test_warning
+[2019-09-05 17:11:13---ERROR] test_error
+[2019-09-05 17:11:18---DEBUG] test_bug
+[2019-09-05 17:11:18---INFO] test_info
+[2019-09-05 17:11:18---WARNING] test_warning
+[2019-09-05 17:11:18---ERROR] test_error

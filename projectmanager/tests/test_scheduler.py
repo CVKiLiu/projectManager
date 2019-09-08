@@ -7,6 +7,7 @@ from projectmanager.taskmanager.scheduler.scheduler import Scheduler
 
 
 class TestService(Service):
+
     def execute(self, args):
         print("TestService executing: %s\n" % args)
 

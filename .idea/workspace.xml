@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c142331-9a49-4669-b9c3-98a3b08d6f35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/log/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/config.template.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/defaultservice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/servermanager/services/defaultservice/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/storage/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectmanager/tests/servicestests/test_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjectManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectmanager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/log/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/log/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectmanager/servermanager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/servermanager/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectmanager/servermanager/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/servermanager/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/storage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/storage/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/Task/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/tests/log/PlogTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/Task/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/taskmanager/Task/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/Task/taskmanager.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/taskmanager/Task/taskmanager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/taskmanager/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectmanager/tests/test_apscheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/tests/test_apscheduler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/taskmanager/scheduler/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/tests/storage/storagetest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanager/tests/test_scheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanager/tests/test_scheduler.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +47,10 @@
   <component name="ProjectId" id="1Pci8uHthS6qzGrYK9VniUXBME4" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlaskTest" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_service.TestServicesModule.test_registerAllServiceModule">
+  <component name="RunManager" selected="Python.__init__">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,12 +80,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/services" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/servermanager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projectmanager/services/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projectmanager/servermanager/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,73 +94,73 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for PlogTest.TestPLog.test_withDefaultStorage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests/log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_scheduler.TestScheduler.test_SingleServiceMultiTask&quot;" />
+      <option name="_new_target" value="&quot;PlogTest.TestPLog.test_withDefaultStorage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_service.TestServicesModule.test_registerAllServiceModule" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for storagetest.TestDefaultStorage.test_append" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests/servicestests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests/storage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_service.TestServicesModule.test_registerAllServiceModule&quot;" />
+      <option name="_new_target" value="&quot;storagetest.TestDefaultStorage.test_append&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_apscheduler.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for storagetest.TestDefaultStorage.test_read" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests/storage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/projectmanager/tests/test_apscheduler.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;storagetest.TestDefaultStorage.test_read&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test_scheduler.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in PlogTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ProjectManager" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projectmanager/tests/log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/projectmanager/tests/test_scheduler.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/projectmanager/tests/log/PlogTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_service.TestServicesModule.test_registerAllServiceModule" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python tests.Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask" />
-        <item itemvalue="Python tests.Unittests in test_scheduler.py" />
-        <item itemvalue="Python tests.Unittests in test_apscheduler.py" />
+        <item itemvalue="Python tests.Unittests for PlogTest.TestPLog.test_withDefaultStorage" />
+        <item itemvalue="Python tests.Unittests in PlogTest.py" />
+        <item itemvalue="Python tests.Unittests for storagetest.TestDefaultStorage.test_read" />
+        <item itemvalue="Python tests.Unittests for storagetest.TestDefaultStorage.test_append" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +176,7 @@
       <updated>1566179629335</updated>
       <workItem from="1566179635466" duration="80892000" />
       <workItem from="1567042764175" duration="28939000" />
+      <workItem from="1567582838807" duration="30934000" />
     </task>
     <servers />
   </component>
@@ -193,19 +188,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_scheduler_py.coverage" NAME="Unittests in test_scheduler.py Coverage Results" MODIFIED="1566370273107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_storagetest_TestDefaultStorage_test_append.coverage" NAME="Unittests for storagetest.TestDefaultStorage.test_append Coverage Results" MODIFIED="1567666362863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/storage" />
     <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_test_scheduler_TestScheduler_test_SingleServiceMultiTask.coverage" NAME="Unittests for test_scheduler.TestScheduler.test_SingleServiceMultiTask Coverage Results" MODIFIED="1566439642744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
-    <SUITE FILE_PATH="coverage/ProjectManager$main.coverage" NAME="main Coverage Results" MODIFIED="1566355647533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager" />
-    <SUITE FILE_PATH="coverage/ProjectManager$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1567560210800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/services" />
-    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_test_service_TestServicesModule_test_registerAllServiceModule.coverage" NAME="Unittests for test_service.TestServicesModule.test_registerAllServiceModule Coverage Results" MODIFIED="1567564188797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/servicestests" />
     <SUITE FILE_PATH="coverage/ProjectManager$mian.coverage" NAME="mian Coverage Results" MODIFIED="1566293479982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager" />
+    <SUITE FILE_PATH="coverage/ProjectManager$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1567734821629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/servermanager" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_test_service_TestServicesModule_test_registerAllServiceModule.coverage" NAME="Unittests for test_service.TestServicesModule.test_registerAllServiceModule Coverage Results" MODIFIED="1567564188797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/servicestests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_PlogTest_py.coverage" NAME="Unittests in PlogTest.py Coverage Results" MODIFIED="1567673458383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/log" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_storagetest_TestDefaultStorage_test_read.coverage" NAME="Unittests for storagetest.TestDefaultStorage.test_read Coverage Results" MODIFIED="1567666482395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/storage" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_scheduler_py.coverage" NAME="Unittests in test_scheduler.py Coverage Results" MODIFIED="1566370273107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$main.coverage" NAME="main Coverage Results" MODIFIED="1566355647533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager" />
     <SUITE FILE_PATH="coverage/ProjectManager$Unittests_in_test_apscheduler_py.coverage" NAME="Unittests in test_apscheduler.py Coverage Results" MODIFIED="1566358048658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_PlogTest_TestPLog_test_withDefaultStorage.coverage" NAME="Unittests for PlogTest.TestPLog.test_withDefaultStorage Coverage Results" MODIFIED="1567674678263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/log" />
+    <SUITE FILE_PATH="coverage/ProjectManager$Unittests_for_storagetest_TestDefaultStorage_test_write.coverage" NAME="Unittests for storagetest.TestDefaultStorage.test_write Coverage Results" MODIFIED="1567666282944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projectmanager/tests/storage" />
   </component>
 </project>

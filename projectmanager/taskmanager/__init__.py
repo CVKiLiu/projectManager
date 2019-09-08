@@ -7,7 +7,7 @@ class TaskManager(object):
         self.tasks = {}
 
     def addTask(self, task=None):
-        self.tasks[task.id] = task
+        self.tasks[task.taskInfo.getId()] = task
 
     def deleteTask(self):
         pass
